@@ -47,8 +47,8 @@ public class Test {
         System.out.println("所在周星期一的日期："+sdf.format(cal.getTime()));
         
         cal.add(Calendar.DATE, 6);
-        System.out.println("所在周星期日的日期修改修改："+sdf.format(cal.getTime()));  */
-		System.out.println("修改修改");
+        System.out.println("所在周星期日的日期：主干修改"+sdf.format(cal.getTime()));  */
+		System.out.println("主干修改");
         
 	}
 }
