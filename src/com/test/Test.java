@@ -1,9 +1,6 @@
 package com.test;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
 
 public class Test {
 	public static void main(String[] args) throws ParseException {
@@ -45,11 +42,10 @@ public class Test {
         int day = cal.get(Calendar.DAY_OF_WEEK);//获得当前日期是一个星期的第几天  
         cal.add(Calendar.DATE, cal.getFirstDayOfWeek()-day);//根据日历的规则，给当前日期减去星期几与一个星期第一天的差值   
         System.out.println("所在周星期一的日期："+sdf.format(cal.getTime()));
-        System.out.println(cal.getFirstDayOfWeek()+"-"+day+"+6="+(cal.getFirstDayOfWeek()-day+6));
         
         cal.add(Calendar.DATE, 6);
         System.out.println("所在周星期日的日期：主干修改"+sdf.format(cal.getTime()));  */
-		System.out.println("主干修改");
+		System.out.println("主干和分支1修改");
         
 	}
 }
