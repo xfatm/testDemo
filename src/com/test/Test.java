@@ -45,7 +45,7 @@ public class Test {
         
         cal.add(Calendar.DATE, 6);
         System.out.println("所在周星期日的日期：主干修改"+sdf.format(cal.getTime()));  */
-		System.out.println("主干修改");
+		System.out.println("分支1修改");
         
 	}
 }
